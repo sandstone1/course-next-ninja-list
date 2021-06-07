@@ -1,0 +1,71 @@
+
+
+
+// ==============================
+// Color Variables
+// ==============================
+
+
+$white    : rgba( 255, 255, 255, 1 );
+$gray-100 : rgba( 248, 249, 250, 1 );
+$gray-200 : rgba( 247, 247, 249, 1 );
+$gray-225 : rgba( 245, 245, 245, 1 );
+$gray-300 : rgba( 236, 238, 239, 1 );
+$gray-310 : rgba( 235, 237, 238, 1 );
+$gray-400 : rgba( 206, 212, 218, 1 );
+$gray-500 : rgba( 173, 181, 189, 1 );
+$gray-600 : rgba( 145, 154, 161, 1 );
+$gray-700 : rgba( 85, 89, 92, 1 );
+$gray-800 : rgba( 52, 58, 64, 1 );
+$gray-900 : rgba( 26, 26, 26, 1 );
+$black    : rgba( 0, 0, 0, 1 );
+
+$blue-500 : rgba( 44, 79, 151, 1 );
+$blue-600 : rgba( 24, 59, 131, 1 );
+
+
+// ==============================
+// Font Variables
+// ==============================
+
+$font-primary-1  : 'Open Sans', Arial, sans-serif;
+$font-primary-2  : 'Nunito', Arial, sans-serif;
+$font-primary-3  : 'Source Sans Pro', Arial, sans-serif;
+$font-display-1  : 'Open Sans Condensed', Arial, sans-serif;
+$font-display-2  : 'Josefin Sans', Arial, sans-serif;
+
+
+
+
+// ==============================
+// MIXINS
+// ==============================
+
+
+// ==============================
+// BUTTON MIXIN
+// ==============================
+
+@mixin button {
+    padding : 1.8rem 3.0rem;
+
+    border        : none; // get rid of the default border
+    border-radius : 0; // get rid of the default radius
+
+    outline : none;
+
+    font-family    : $font-primary-2;
+    font-size      : 15px;
+    color          : rgba( 255, 255, 255, 1 );
+    text-align     : center;
+    text-transform : uppercase;
+
+    background : $blue-500;
+
+    transition : all 0.2s ease-out;
+    cursor     : pointer;
+
+    &:hover {
+        background : $blue-600;
+    }
+}

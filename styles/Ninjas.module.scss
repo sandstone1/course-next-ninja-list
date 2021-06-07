@@ -1,0 +1,21 @@
+
+
+
+.single {
+
+    display : block;
+    margin  : 20px 10px 20px 0;
+    padding : 2px 16px 2px 16px;
+    
+    border-left : 8px solid rgba( 255, 255, 255, 1 );
+
+    background : rgba( 255, 255, 255, 1 );
+
+    &:hover {
+
+        border-left : 8px solid rgba( 73, 121, 255, 1 );
+
+    }
+
+}
+
