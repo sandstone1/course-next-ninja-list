@@ -14,11 +14,11 @@
 
 # production
 /build
-app-next-tutorial.js
 
 # misc
 .DS_Store
 *.pem
+app-next-tutorial.js
 
 # debug
 npm-debug.log*
